@@ -10,31 +10,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintVertical_bias="0.455"
+        tools:layout_editor_absoluteX="0dp">
 
         <ImageView
             android:id="@+id/circle_1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/circle_1"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:src="@drawable/circle_1" />
 
         <ImageView
             android:id="@+id/circle_2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/circle_2"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:src="@drawable/circle_2" />
 
         <ImageView
             android:id="@+id/circle_3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/circle_3"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:src="@drawable/circle_3" />
 
     </LinearLayout>
 
@@ -42,7 +44,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="616dp" />
+        android:text="Переключить цвет"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="613dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
